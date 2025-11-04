@@ -10,16 +10,16 @@ const education = [
   },
   {
     degree: "12th Grade (Pre-University)",
-    institution: "School Name",
-    duration: "2019 - 2021",
-    cgpa: "Completed",
+    institution: "GOVT MARIKAMBA PU COLLEGE SIRSI",
+    duration: "Year of Passout: 2022",
+    cgpa: "75.5%",
     icon: "📚",
   },
   {
     degree: "10th Grade (Secondary School)",
-    institution: "School Name",
-    duration: "2018 - 2019",
-    cgpa: "Completed",
+    institution: "SHARADAMBA HIGHSCHOOL, BHAIRUMBE",
+    duration: "Year of Passout: 2020",
+    cgpa: "84.2%",
     icon: "📖",
   },
 ];

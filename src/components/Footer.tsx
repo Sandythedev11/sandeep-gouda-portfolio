@@ -6,12 +6,7 @@ const Footer = () => {
   return (
     <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-border/50">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col items-center text-center space-y-4">
-          <p className="text-muted-foreground flex items-center gap-2">
-            Built with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> by{" "}
-            <span className="font-semibold gradient-text">Sandeep Gouda</span>
-          </p>
-          
+        <div className="flex flex-col items-center text-center">
           <p className="text-sm text-muted-foreground">
             © {currentYear} Sandeep Gouda. All rights reserved.
           </p>

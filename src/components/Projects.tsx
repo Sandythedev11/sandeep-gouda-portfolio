@@ -56,16 +56,6 @@ const Projects = () => {
                 </li>
               </ul>
               
-              <div className="flex gap-4">
-                <Button variant="outline" className="glass-card group">
-                  <Github className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-                  View Code
-                </Button>
-                <Button className="bg-gradient-to-r from-accent to-[hsl(217,91%,60%)] group">
-                  <ExternalLink className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
-                  Live Demo
-                </Button>
-              </div>
             </div>
           </div>
         </div>
