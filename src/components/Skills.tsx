@@ -1,14 +1,25 @@
+import javaLogo from "@/assets/java.svg";
+import sqlLogo from "@/assets/sql.svg";
+import javascriptLogo from "@/assets/javascript.svg";
+import reactLogo from "@/assets/react.svg";
+import springLogo from "@/assets/spring.svg";
+import hibernateLogo from "@/assets/hibernate.svg";
+import mysqlLogo from "@/assets/mysql.svg";
+import htmlLogo from "@/assets/html.svg";
+import gitLogo from "@/assets/git.svg";
+import testingLogo from "@/assets/testing.svg";
+
 const skills = [
-  { name: "Java", level: 90 },
-  { name: "SQL", level: 85 },
-  { name: "JavaScript", level: 85 },
-  { name: "React", level: 80 },
-  { name: "Spring Boot", level: 80 },
-  { name: "Hibernate", level: 75 },
-  { name: "MySQL", level: 85 },
-  { name: "HTML & CSS", level: 90 },
-  { name: "Git", level: 85 },
-  { name: "Manual Testing", level: 75 },
+  { name: "Java", logo: javaLogo },
+  { name: "SQL", logo: sqlLogo },
+  { name: "JavaScript", logo: javascriptLogo },
+  { name: "React", logo: reactLogo },
+  { name: "Spring Boot", logo: springLogo },
+  { name: "Hibernate", logo: hibernateLogo },
+  { name: "MySQL", logo: mysqlLogo },
+  { name: "HTML & CSS", logo: htmlLogo },
+  { name: "Git", logo: gitLogo },
+  { name: "Manual Testing", logo: testingLogo },
 ];
 
 const Skills = () => {
@@ -27,8 +38,8 @@ const Skills = () => {
               style={{ animationDelay: `${index * 50}ms` }}
             >
               <div className="flex flex-col items-center text-center">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                  <span className="text-2xl font-bold gradient-text">{skill.level}%</span>
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform p-3">
+                  <img src={skill.logo} alt={`${skill.name} logo`} className="w-full h-full object-contain" />
                 </div>
                 <h3 className="font-semibold text-sm group-hover:text-accent transition-colors">
                   {skill.name}
