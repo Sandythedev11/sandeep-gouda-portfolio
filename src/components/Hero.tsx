@@ -34,10 +34,12 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-accent to-[hsl(217,91%,60%)] hover:opacity-90 transition-opacity group"
-            onClick={() => window.open('/resume.pdf', '_blank')}
+            asChild
           >
-            <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-            Download Resume
+            <a href="/resume.pdf" download="Sandeep_Gouda_Resume.pdf">
+              <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+              Download Resume
+            </a>
           </Button>
           <Button 
             size="lg" 
